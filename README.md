@@ -31,13 +31,14 @@ C:\msys64\ucrt64\bin
 
 ## 3. ワークスペースに設定ファイルを置く
 ```text
-project/
-├── .vscode/
-│   ├── c_cpp_properties.json
-│   ├── launch.json
-│   └── tasks.json
-├── main.c
-└── main.cpp
+project
+│   main.c
+│   main.cpp
+│   
+└───.vscode
+        c_cpp_properties.json
+        launch.json
+        tasks.json
 ```
 
 必要に応じてPowerShellのプロファイルを編集
