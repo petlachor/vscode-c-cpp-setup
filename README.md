@@ -8,7 +8,10 @@ https://www.mingw-w64.org/getting-started/msys2/
 - MSYS2 UCRT64
 - MinGW-w64 (GCC)
 
-## MSYS2のインストール
+## 1. Visual Studio Codeのインストール
+https://code.visualstudio.com/
+
+## 1. MSYS2のインストール
 https://www.msys2.org/
 
 `msys2-x86_64-yyyyMMdd.exe`をインストール
@@ -19,6 +22,6 @@ $ pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-gdb
 ```
 
 システム環境変数`Path`に追加
-```
+```text
 C:\msys64\ucrt64\bin
 ```
