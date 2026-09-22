@@ -12,6 +12,7 @@ https://www.mingw-w64.org/getting-started/msys2/
 https://code.visualstudio.com/
 
 拡張機能:
+- Japanese Language Pack for VS Code
 - C/C++
 
 ## 2. MSYS2のインストール
