@@ -11,7 +11,7 @@ https://www.mingw-w64.org/getting-started/msys2/
 ## 1. Visual Studio Codeのインストール
 https://code.visualstudio.com/
 
-## 1. MSYS2のインストール
+## 2. MSYS2のインストール
 https://www.msys2.org/
 
 `msys2-x86_64-yyyyMMdd.exe`をインストール
