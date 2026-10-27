@@ -25,10 +25,11 @@ pacman -Syu
 pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-gdb
 ```
 
-システム環境変数`Path`に追加
+ユーザー環境変数`Path`に追加
 ```text
 C:\msys64\ucrt64\bin
 ```
+Pythonをインストールしている場合は優先順位に注意
 
 ## 3. ワークスペースに設定ファイルを置く
 ```text
