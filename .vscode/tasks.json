@@ -3,7 +3,7 @@
         {
             "type": "shell",
             "label": "C/C++: (MinGW) Build",
-            "command": "if ('${fileExtname}' -eq '.c') { gcc -fdiagnostics-color=always -g '${file}' -o '${fileDirname}\\${fileBasenameNoExtension}.exe' } else { g++ -fdiagnostics-color=always -g '${file}' -o '${fileDirname}\\${fileBasenameNoExtension}.exe' }",
+            "command": "if ('${fileExtname}' -eq '.c') { gcc -Wall -Wextra -fdiagnostics-color=always -g '${file}' -o '${fileDirname}\\${fileBasenameNoExtension}.exe' } else { g++ -Wall -Wextra -fdiagnostics-color=always -g '${file}' -o '${fileDirname}\\${fileBasenameNoExtension}.exe' }",
             "problemMatcher": [
                 "$gcc"
             ],
